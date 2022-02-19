@@ -1,0 +1,3 @@
+Nesta semana, entendi o funcionamento básico do Git e do Github dando assim,
+o ponto de partida para esta escalada de conhecimento na área de programação!
+Dia 18/02/2022, às 22.20 hrs da noite.
