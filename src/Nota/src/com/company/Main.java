@@ -14,7 +14,7 @@ até que o usuário informe um valor válido.
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Nota: ");
         double nota = scan.nextDouble();

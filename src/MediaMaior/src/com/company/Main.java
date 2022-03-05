@@ -1,5 +1,8 @@
 package com.company;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Main {
@@ -7,24 +10,24 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int numero;
-        int maior = 0;
-        int soma =0;
 
-        int count = 0;
+        float numero;
+        float maior = 0;
+        float soma =0;
+
+        float count = 0;
         do {
-            System.out.println("Número: ");
-            numero = scan.nextInt();
+             System.out.printf("Número: ");
+            numero = scan.nextFloat();
 
             soma = soma + numero;
 
             if (numero > maior) maior = numero;
 
             count = count + 1;
-        } while (count < 5);
+        } while (count < 2);
 
             System.out.println("Maior: " + maior);
-        System.out.println("Média:" + soma / 5);
-
+        System.out.println("Média:" + soma / 2);
     }
 }

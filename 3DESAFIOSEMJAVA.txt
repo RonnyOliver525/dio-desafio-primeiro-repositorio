@@ -1,0 +1,87 @@
+EXERCÍCIO 2 DO DESAFIO ÁREA DO CÍRCULO:
+
+
+
+import java.util.Scanner; 
+
+
+public class Classe{
+	public static void main(String[] args)  {
+		Scanner scan = new Scanner(System.in);
+
+	
+		 double raio = scan.nextDouble();
+		 
+		 double area;
+		 
+		 
+
+                  //continue a solucao
+
+		 area = 3.14159 * (Math.pow( raio   ,2));
+
+		System.out.printf("A=%.4f\n", area);
+	}
+}
+
+
+////////////////////////////////////////////////////////////////////
+
+
+EXERCÍCIO 2 DO DESAFIO PREÇO FILME / VOVÓ ZAZÁ:
+
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class DIO {
+	
+    public static void main(String[] args) throws IOException {
+    	Scanner leitor = new Scanner(System.in);
+    	double A = leitor.nextDouble();
+    	double B = leitor.nextDouble();
+    	//Escreva aqui a sua lógica
+    
+      double res = ((B - A ) * 100) / A;
+      
+    System.out.printf("%.2f%%\n",res);
+    
+   
+      
+    }
+    
+	
+}
+
+
+////////////////////////////////////////////////////////////////////////////
+
+EXERCÍCIO 3 DO DESAFIO soma de pimentões:
+
+
+import java.util.Scanner;
+
+public class DIO {
+	
+    public static void main(String[] args) throws IOException {
+    	Scanner leitor = new Scanner(System.in);
+
+	int a = leitor.nextint();
+	int bb = leitor.nestint();
+	int X;
+	X = ( a + b );
+
+	System.out.printf(" X = " + X);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

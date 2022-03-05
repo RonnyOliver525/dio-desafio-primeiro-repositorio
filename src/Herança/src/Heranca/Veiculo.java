@@ -1,0 +1,4 @@
+package Heranca;
+
+class Veiculo {
+}
